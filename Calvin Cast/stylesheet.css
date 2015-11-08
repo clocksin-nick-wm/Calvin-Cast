@@ -1,7 +1,10 @@
-#nav {
+.nav {
      text-align: center;
     width: 900px;
     height: 27px;
+    background-color: #333;
+    margin: 0;
+    list-style: none;
  }
 
 ul {
@@ -17,9 +20,35 @@ ul {
 }
 
 #main {
+    position: fixed;
+    left: 110px;
+    padding: 0;
     align-content: center;
     text-align: center;
-    font-family: Monospace;
+    font-family: 'helvetica neue', helvetica;
     width: 700px;
     height: 500px;
+}
+
+#main > p {
+    text-indent: 25px;
+}
+
+.nav > li{
+    display: inline-block;
+    width: 200px;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+#footer {
+    width: 900px;
+    length: 75 px;
+    background: black;
+    position: fixed;
+    top: 75%;
 }
