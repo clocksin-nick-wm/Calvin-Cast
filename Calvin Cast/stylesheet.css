@@ -5,6 +5,7 @@
     background-color: #333;
     margin: 0;
     list-style: none;
+    font-family: "Bodoni MT";
  }
 
 ul {
@@ -17,6 +18,13 @@ ul {
     height: 100px;
     width: 900px;
     background-color: lightgrey;
+    font-family: "Comic Sans MS";
+}
+
+#header > h1 {
+    position: fixed;
+    top: 10px;
+    left: 365px;
 }
 
 #main {
