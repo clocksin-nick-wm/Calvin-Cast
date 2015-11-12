@@ -1,6 +1,6 @@
 .nav {
      text-align: center;
-    width: 900px;
+    width: 1450px;
     height: 27px;
     background-color: #333;
     margin: 0;
@@ -16,7 +16,7 @@ ul {
 
 #header {
     height: 100px;
-    width: 900px;
+    width: 1450px;
     background-color: lightgrey;
     font-family: "Comic Sans MS";
 }
@@ -24,18 +24,18 @@ ul {
 #header > h1 {
     position: fixed;
     top: 10px;
-    left: 365px;
+    left: 630px;
 }
 
 #main {
     position: fixed;
-    left: 110px;
+    left: 280px;
     padding: 0;
     align-content: center;
     text-align: center;
     font-family: 'helvetica neue', helvetica;
-    width: 700px;
-    height: 500px;
+    width: 900px;
+    height: 1750px;
 }
 
 #main > p {
@@ -54,9 +54,9 @@ ul {
 }
 
 #footer {
-    width: 900px;
+    width: 1450px;
     length: 75 px;
     background: black;
     position: fixed;
-    top: 75%;
+    top: 90%;
 }
